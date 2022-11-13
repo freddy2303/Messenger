@@ -15,7 +15,7 @@ class LoginPage extends StatelessWidget {
           children: [
             Center(
               child: SizedBox(
-                width: 200,
+                width: 130,
                 child: Image.asset('assets/m.png'),
               ),
             ),
@@ -24,7 +24,7 @@ class LoginPage extends StatelessWidget {
             ),
             Center(
               child: Text('Welcome to messenger',
-                  style: TextStyle(fontSize: 35, color: Colors.black)),
+                  style: TextStyle(fontSize: 25, color: Colors.black)),
             ),
             const SizedBox(
               height: 30,
@@ -46,8 +46,8 @@ class LoginPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(5),
                 ),
                 filled: true,
-                fillColor: Color.fromARGB(81, 33, 149, 243),
-                hintText: 'Correo electronico',
+                fillColor: Color.fromARGB(81, 249, 249, 250),
+                hintText: 'Numero de telefono o correo electronico',
                 hintStyle: const TextStyle(color: Color.fromARGB(70, 34, 2, 2)),
                 contentPadding: const EdgeInsets.all(18),
               ),
@@ -72,7 +72,7 @@ class LoginPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(5),
                 ),
                 filled: true,
-                fillColor: Color.fromARGB(72, 33, 149, 243),
+                fillColor: Color.fromARGB(71, 239, 241, 243),
                 hintText: 'Contraseña',
                 hintStyle: const TextStyle(color: Color.fromARGB(73, 0, 0, 0)),
                 contentPadding: const EdgeInsets.all(18),
@@ -103,7 +103,7 @@ class LoginPage extends StatelessWidget {
               height: 10,
             ),
             Center(
-              child: Text('CREAR UNA CUENTA NUEVA',
+              child: Text('HE OLVIDADO LA CONTRASEÑA',
                   style: TextStyle(fontSize: 15, color: Colors.black)),
             ),
             const SizedBox(
